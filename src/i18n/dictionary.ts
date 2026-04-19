@@ -258,8 +258,8 @@ const fr: Messages = {
   portfolioDescriptions: {
     "https://earlier-phi.vercel.app/":
       "Thriller indépendant — trois ami·es montent une intervention en forêt ; des champignons sauvages font dérailler la nuit, quelqu’un disparaît, et la mémoire ne tient plus. Écrit par Leigh Akin. Hope, C.-B. · Silver Lake.",
-    "https://flower-script.vercel.app/":
-      "Comédie musicale d’animation · fantasy jeunesse — elle naît sans parfum dans un monde qui ne croit qu’à ce qu’il peut mesurer. Histoire de Lynne Tapper ; scénario et chansons de Leigh Akin.",
+    "https://5shorts.vercel.app/":
+      "Anthologie de courts indépendants — cinq films autour d’une question : quand la réalité cesse de se comporter comme prévu ? The Silent Room, Ascent, The 10th Door, Deep Pockets, Transfer — minimal, délibéré, atmosphérique.",
     "https://the-child.vercel.app/":
       "Récit d’écran dans une Mongolie ancienne : un·e jeune guerrier·ère rongé·e par la culpabilité, persuadé·e que le contrôle peut empêcher la perte, doit escorter un·e enfant mystérieux·se à travers la steppe.",
     "https://caislean-dubh.vercel.app/":

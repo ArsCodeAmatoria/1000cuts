@@ -15,10 +15,10 @@ export const site = {
         "Indie thriller — three friends stage a woods intervention; wild mushrooms derail the night, someone vanishes, and memory won’t hold. Written by Leigh Akin. Hope, BC · Silver Lake.",
     },
     {
-      title: "Flower",
-      href: "https://flower-script.vercel.app/",
+      title: "5 Shorts",
+      href: "https://5shorts.vercel.app/",
       description:
-        "Animated musical adventure · YA fantasy — she’s born without a scent in a world that only believes what it can measure. Story by Lynne Tapper; screenplay and songs by Leigh Akin.",
+        "Independent short anthology — five films on one question: what happens when reality stops behaving the way we expect? The Silent Room, Ascent, The 10th Door, Deep Pockets, Transfer — minimal, deliberate, atmospheric.",
     },
     {
       title: "The Child",
