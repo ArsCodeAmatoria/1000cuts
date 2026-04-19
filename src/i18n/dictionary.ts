@@ -264,8 +264,8 @@ const fr: Messages = {
       "Récit d’écran dans une Mongolie ancienne : un·e jeune guerrier·ère rongé·e par la culpabilité, persuadé·e que le contrôle peut empêcher la perte, doit escorter un·e enfant mystérieux·se à travers la steppe.",
     "https://caislean-dubh.vercel.app/":
       "Thriller psychologique / horreur irlandais — des inconnu·es dans un château isolé trouvent leurs noms sur un registre ; des doubles émergent d’un étang noir. Lectrice de script avec repères Save the Cat et ancres de scène.",
-    "https://fish-script.vercel.app/":
-      "Comédie musicale cinématographique à River Z — Zuri affronte la corruption et rejoint l’icône déchue Marcus Vale pour sauver la ville et le fleuve. Scénario et chansons de Leigh Akin ; soul Motown, hip-hop, chansons comme mémoire et transformation.",
+    "https://hostile-mocha.vercel.app/":
+      "Faux documentaire sombre — équipes rivales à une auberge côtière sur le West Coast Trail qui capturent de vraies rencontres avec des fantômes ; quand les réservations chutent, des avocats poursuivent les esprits pour perte de revenus, et un procès décalé pose la question de qui a le droit d’occuper les lieux.",
   },
 }
 

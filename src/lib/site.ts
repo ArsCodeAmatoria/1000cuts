@@ -33,10 +33,10 @@ export const site = {
         "Irish psychological thriller / horror — strangers at a remote castle find their names in the ledger; doubles rise from a black pond. Script reader with Save the Cat beats and scene anchors.",
     },
     {
-      title: "Fish",
-      href: "https://fish-script.vercel.app/",
+      title: "Hostile Occupancy",
+      href: "https://hostile-mocha.vercel.app/",
       description:
-        "Cinematic musical in River Z — Zuri fights corruption and reaches fallen icon Marcus Vale to save the town and the river. Leigh Akin screenplay and songs; Motown soul, hip-hop, songs as memory and transformation.",
+        "Dark mockumentary — rival documentary crews at a weathered coastal lodge capture real ghost encounters; when bookings fall, lawyers sue the spirits for lost revenue, and a deadpan legal fight asks who has the right to occupy the space.",
     },
   ] as const,
 }

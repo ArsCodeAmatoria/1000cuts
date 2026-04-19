@@ -47,6 +47,17 @@ export default async function HomePage({
   const dict = getDictionary(locale)
   const portfolio = getLocalizedPortfolio(locale)
 
+  const homeSkipHref = "https://the-child.vercel.app/"
+  const homeFeatureHref = "https://hostile-mocha.vercel.app/"
+  const homePortfolio = (() => {
+    const featured = portfolio.find((p) => p.href === homeFeatureHref)
+    const rest = portfolio.filter(
+      (p) => p.href !== homeSkipHref && p.href !== homeFeatureHref
+    )
+    if (!featured) return portfolio.slice(0, 3)
+    return [...rest.slice(0, 2), featured]
+  })()
+
   return (
     <main id="main" className="flex-1">
       <section>
@@ -152,7 +163,7 @@ export default async function HomePage({
             </div>
           </Reveal>
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {portfolio.slice(0, 3).map((project, index) => (
+            {homePortfolio.map((project, index) => (
               <PortfolioCard
                 key={project.href}
                 project={project}
