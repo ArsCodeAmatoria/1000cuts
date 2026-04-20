@@ -53,34 +53,6 @@ export default async function AboutPage({
             </div>
           </Reveal>
         </div>
-
-        <Reveal delay={0.14} className="mt-16 max-w-3xl sm:mt-20">
-          <section
-            className="border-t border-border pt-14 sm:pt-16"
-            aria-labelledby="about-craft-heading"
-          >
-            <h2
-              id="about-craft-heading"
-              className="text-sm font-semibold uppercase tracking-[0.3em] text-brand sm:text-base"
-            >
-              {dict.about.craftHeading}
-            </h2>
-            <p className="mt-5 text-lg leading-relaxed text-muted-foreground sm:text-xl">
-              {dict.about.craftIntro}
-            </p>
-            <ul className="mt-8 space-y-4 text-base leading-relaxed text-muted-foreground sm:text-lg">
-              {dict.about.craftBullets.map((item) => (
-                <li key={item} className="flex gap-3.5">
-                  <span
-                    className="mt-2.5 size-1.5 shrink-0 rounded-full bg-brand"
-                    aria-hidden
-                  />
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-          </section>
-        </Reveal>
       </div>
     </main>
   )

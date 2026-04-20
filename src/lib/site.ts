@@ -5,7 +5,7 @@ export const site = {
   location: "British Columbia, Canada",
   person: {
     name: "Leigh Akin",
-    roles: ["Producer", "Director", "Writer"],
+    roles: ["Writer"],
   },
   portfolio: [
     {

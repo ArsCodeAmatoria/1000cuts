@@ -56,13 +56,11 @@ type Messages = {
     contactTitle: string
     contactBody: string
     contactCta: string
+    writingTitle: string
   }
   about: {
     title: string
     body: string
-    craftHeading: string
-    craftIntro: string
-    craftBullets: readonly string[]
     roleHeading: string
     rolesLine: string
   }
@@ -82,7 +80,7 @@ const en: Messages = {
   metadata: {
     siteTitle: site.name,
     siteDescription:
-      "Independent film production company. Producer, director, and writer Leigh Akin.",
+      "Independent film production company. Writer Leigh Akin.",
     ogSiteName: site.name,
     homeDescription:
       "Independent film production built for stories that stay under your skin.",
@@ -140,19 +138,13 @@ const en: Messages = {
     contactBody:
       "Screeners, packets, collaborators, festivals, and production conversations are all welcome.",
     contactCta: "Contact page",
+    writingTitle: "Writing",
   },
   about: {
     title: "About the studio",
     body: "We work lean and intentional — from script through picture lock — with collaborators who care as much about subtext as they do about the frame.",
-    craftHeading: "How we shoot & finish",
-    craftIntro:
-      "The work comes first; tools follow. We often stay light and handheld on Sony when a scene needs proximity and speed—then carry that same discipline through sound, light, and post so the film feels like one piece.",
-    craftBullets: [
-      "Sony cameras when we want a nimble, intimate camera—usually handheld, always in service of the scene.",
-      "Sound and lighting shaped for performance and place, not for spec sheets.",
-    ],
     roleHeading: "Principal",
-    rolesLine: site.person.roles.join(" · "),
+    rolesLine: `${site.person.roles.join(" · ")}.`,
   },
   contact: {
     title: "Let's talk",
@@ -173,7 +165,7 @@ const fr: Messages = {
   metadata: {
     siteTitle: site.name,
     siteDescription:
-      "Maison de production cinématographique indépendante — productrice, réalisatrice et scénariste : Leigh Akin.",
+      "Maison de production cinématographique indépendante — scénariste : Leigh Akin.",
     ogSiteName: site.name,
     homeDescription:
       "Production cinéma indépendante au service d’histoires qui restent sous la peau.",
@@ -210,7 +202,7 @@ const fr: Messages = {
     heroLang: "fr",
     lead: "Une production au service d’histoires qui restent sous la peau.",
     bio: "Un travail ancré dans le personnage, avec un sens aigu de la tonalité et de la tension.",
-    rolesClause: "productrice, réalisatrice, scénariste",
+    rolesClause: "scénariste",
     indieHeading: "Longs métrages indépendants & courts",
     indieP1:
       "Nous développons et produisons des longs métrages indépendants pensés pour durer — des scénarios solides en salle de script, sur le plateau et au montage. Entre thriller psychologique, fantaisie ancrée et drame porté par la musique, tout repose sur une prémisse nette, une pression tenue et un sous-texte assumé pour que chaque scène mérite sa place.",
@@ -224,26 +216,20 @@ const fr: Messages = {
     aboutEyebrow: "À propos",
     aboutTitle: "L’histoire d’abord.",
     aboutBody: `${site.name} développe des longs métrages et des courts indépendants en mettant l’accent sur la pression dramatique, le personnage et la tonalité. Le travail navigue entre thriller psychologique, fantaisie ancrée et récit porté par la musique, sans jamais perdre une colonne vertébrale dramatique précise.`,
-    aboutRoles: `${site.person.name} — productrice, réalisatrice, scénariste.`,
+    aboutRoles: `${site.person.name} — scénariste.`,
     aboutCta: "En savoir plus",
     contactEyebrow: "Contact",
     contactTitle: "Parlons-en.",
     contactBody:
       "Projections, dossiers, collaborations, festivals et conversations de production : écrivez-nous.",
     contactCta: "Page contact",
+    writingTitle: "Écriture",
   },
   about: {
     title: "Le studio",
     body: "Nous travaillons de façon sobre et intentionnelle — du script au verrouillage image — avec des collaboratrices et collaborateurs pour qui le sous-texte compte autant que le cadrage.",
-    craftHeading: "Tournage & finition",
-    craftIntro:
-      "Le récit passe avant le matériel. On travaille souvent léger et à la main au Sony lorsqu’une scène demande proximité et réactivité — puis on prolonge la même exigence au son, à la lumière et au post pour que le film tienne d’un seul tenant.",
-    craftBullets: [
-      "Caméras Sony lorsqu’on veut une caméra souple et proche du jeu — le plus souvent à la main, toujours au service de la scène.",
-      "Son et lumière pensés pour la performance et le lieu, pas pour la fiche technique.",
-    ],
     roleHeading: "Direction",
-    rolesLine: "Productrice · Réalisatrice · Scénariste",
+    rolesLine: "Scénariste.",
   },
   contact: {
     title: "Parlons-en",

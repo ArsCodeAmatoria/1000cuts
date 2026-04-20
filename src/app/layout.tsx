@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "A Thousand Cuts Films",
   description:
-    "Independent film production company. Producer, director, and writer Leigh Akin.",
+    "Independent film production company. Writer Leigh Akin.",
 }
 
 export default function RootLayout({

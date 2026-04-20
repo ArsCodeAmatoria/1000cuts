@@ -6,6 +6,7 @@ import { notFound } from "next/navigation"
 import { CanadianMapleLeaf } from "@/components/marketing/canadian-maple-leaf"
 import { PortfolioCard } from "@/components/marketing/portfolio-card"
 import { Reveal } from "@/components/marketing/reveal"
+import { WritingSection } from "@/components/marketing/writing-section"
 import { LocalizedLink } from "@/components/localized-link"
 import { isLocale, type Locale } from "@/i18n/config"
 import { getDictionary, getLocalizedPortfolio } from "@/i18n/dictionary"
@@ -115,14 +116,13 @@ export default async function HomePage({
               </span>
             </p>
           </Reveal>
-          <Reveal delay={0.14} className="max-w-3xl">
+          <Reveal delay={0.14} className="max-w-3xl space-y-8">
             <p className="text-xl leading-relaxed text-muted-foreground sm:text-2xl">
-              {dict.home.bio}{" "}
-              <span className="text-foreground">{site.person.name}</span> —{" "}
-              {dict.home.rolesClause}.
+              {dict.home.bio} <span className="text-foreground">{site.person.name}</span> — {dict.home.rolesClause}.
             </p>
+            <WritingSection locale={locale} title={dict.home.writingTitle} />
           </Reveal>
-          <Reveal delay={0.16} className="max-w-3xl space-y-6">
+          <Reveal delay={0.18} className="max-w-3xl space-y-6">
             <h2 className="text-sm font-semibold uppercase tracking-[0.32em] text-brand sm:text-base">
               {dict.home.indieHeading}
             </h2>
